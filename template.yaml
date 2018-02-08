@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion : '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: A hello native lambda application.
+Resources:
+  HelloNativeLambdaFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: com.glfrc.lambda.HelloNativeLambda
+      Runtime: java8
+      CodeUri: ./target/HelloNativeLambda-1.0.jar
