@@ -1,4 +1,4 @@
-# AWS Lambda Java HelloWorld calling a native C++ library
+# AWS Lambda - Java HelloWorld calling a native C++ library
 
 Serverless computing platforms are growing and, in many aspects, AWS Lambda leads the pack. At this time it supports code written in Node.js (JavaScript), Python, Java (Java 8 compatible), C# (.NET Core 1 and 2) and Go. Furthermore, Amazon declares that your code can include existing libraries and even native ones (AWS Lambda FAQs).
 
