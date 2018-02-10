@@ -6,6 +6,7 @@ javac src/main/java/com/glfrc/jni/JavaHello.java src/main/java/com/glfrc/jni/Hel
 javah -d src/main/c++ -classpath src/main/java com.glfrc.jni.JavaHello
 
 # step 3: make the shared library with the name linked in said Java source, and implementing said native method
+mkdir -p src/main/resources
 g++ -std=c++11 -shared -fPIC -I$JAVA_INC -I$JAVA_INC/linux src/main/c++/NativeHelloImpl.cpp -o src/main/resources/libhello.so
 
 # step 4: run JVM with java.library.path set to include said shared library
