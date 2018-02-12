@@ -6,4 +6,4 @@ That is very important. Your company may have a big existing code base to capita
 
 Including a library written in the same language as your lambda function is pretty straightforward. It comes down to creating a valid deployment package (Creating a Deployment Package). Include a native c/c++ library can be a little trickier. It took me some time to figure out how to make it work, and that's why I've decided to post this article. Hopefully it will ease your path and help you to smoothly deploy the core of your new serverless application.
 
-Please visit http://www.glfrc.com/2018/02/10/aws-lambda-with-java-and-native-code/ for the full article.
+Please visit http://www.glfrc.com/2018/01/19/aws-lambda-with-java-and-native-code/ for the full article.
